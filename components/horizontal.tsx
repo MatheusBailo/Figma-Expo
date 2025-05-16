@@ -23,53 +23,57 @@ export const Item = ({ name, planet, species, location, image }: { name: string;
 
 const styles = StyleSheet.create({
     tela: {
-        flex: 1, // Garante que a tela ocupa todo o espaço
+        flex: 1, 
         backgroundColor: "#272B33",
         justifyContent: "center",
         alignItems: "center",
         width: "100%",
         height: "100%",
-        marginBottom: 20
     },
     itemList: {
-        flexDirection: "column",
-        alignItems: "center",
-        width: 200,
+        flexDirection: "row", 
+        alignItems: "flex-start",
+        width: 180, 
         height: 340,
-        marginBottom: 50,
+        marginHorizontal: 15, 
         borderRadius: 10,
         padding: 10,
+        marginRight: 215
     },
     imageStyle: {
-        width: 200,
-        height: 180,
+        width: 180,
+        minHeight: 192,
+        maxHeight: 230,
         borderTopLeftRadius: 10,
-        borderTopRightRadius: 10,
+        borderBottomLeftRadius: 10,
+        marginTop: 1
     },
     textos: {
         flexDirection: "column",
         alignItems: "center",
         backgroundColor: "#5C5C5C",
-        width: 200,
+        width: 180,
+        height: 193,
         paddingVertical: 10,
-        borderBottomLeftRadius: 10,
+        borderTopRightRadius: 10,
         borderBottomRightRadius: 10,
+        
     },
     text: {
-        fontSize: 14,
+        fontSize: 12,
         fontWeight: "light",
         color: "#88e23b",
         textAlign: "center",
     },
     Nome: {
-        fontSize: 22,
+        fontSize: 20,
         fontWeight: "bold",
         color: "white",
         textAlign: "center",
         marginBottom: 5,
     },
     titulos: {
-        fontSize: 17,
+        fontSize: 15,
         fontWeight: "bold",
         color: "white",
         textAlign: "center",
