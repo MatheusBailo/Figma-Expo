@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expoFigma",
-    "slug": "expoFigma",
+    "name": "ExpoFigma",
+    "slug": "ExpoFigma",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
